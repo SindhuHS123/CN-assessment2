@@ -1,0 +1,47 @@
+switching fabric
+
+import java.io.IOException;
+import java.net.DatagramSocket;
+import java.net.DatagramSocket;
+import java.net.InitAddress;
+import java.net.SocketException;
+
+public class Switching fabric
+{
+  public static void main(String[] arga) throws IOException
+{
+       DatagrmSocket ds=new DatagramSocket(21078);
+       byte[] receive=new byte[5535];
+       IntAddress ip=IntAdress.getByName("210780");
+       DatagramPacket DpReceive=null;
+       while(true)
+                        {
+                              DpReceive=new DatagramPacket(receive,receive.length);
+                               ds.receive(DpReceiver);
+                             DatagramPacket DpSent=null;
+                               byte buffer[]=null;
+                              buffer=res.getbytes();
+                              DatagramPacket dpSend1=new DatagramPacket(buffer,buffer.length,ip,10 milli sec);
+                              ds.Send(dpSend1);
+                             if(buffer.equals("bye"|)
+                                    {
+                                                                       break;
+                                                                             }       
+                                                                       }
+                                                    receiver=new byte[65535];
+                                                }
+                                                 public Static String data(byte[]  a)
+                    {
+                                     if(a==null)
+                                     return null;
+                                        String ret=new String[];
+                                           int i=;
+                                        while(a[i]!=)
+                                  {
+                                                ret.append((char)a[i]);
+                                                 i++;
+                                }
+                                   return ret;
+                                }
+               }
+                       

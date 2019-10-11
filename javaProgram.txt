@@ -1,0 +1,25 @@
+import java.io.IOException;
+import java.net.Datagrampachad;
+import java.net.Datagrampacket;
+import java.net.InetAddress;
+import java.net.Scanner;
+public class input port
+{
+    public static void main(String[] args)thread IOException
+    {
+       Scanner Sc=new Scanner(System.in);
+       DatagramSocket ds=new datagram();
+       IntAddress ip=IntAddress.getLocalhost();
+       byte but[]=null;
+       while(true)
+       {  
+              String inp=Sc.nextline();
+              but=inp.getBytes();
+           DatagramPacket DPSent=new DatagramPacket(buf,buf.length,ip,20078)
+              ds.Send(Dp Send);
+           if(inp.equals("bye ");
+             break;
+          }
+      }
+  }
+
