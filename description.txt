@@ -1,3 +1,6 @@
+question;
+A06.
+
 solution;
   sir, this is wat we learnt from this assignment:
 
