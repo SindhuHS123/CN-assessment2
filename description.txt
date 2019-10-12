@@ -1,0 +1,31 @@
+solution;
+  sir, this is wat we learnt from this assignment:
+
+Router architecture is designed so that routers are equipped to perform two main functions;
+     process routable protcols and use routing protocols to determain best path.
+
+Input port;
+                       An input port performs several key functions.It performs the physical layer function of terminating an incoming physical link at a router.
+                        An input port also performs link layer functions needed to interoperate with the incoming link.
+
+Switching fabric;
+                                The switching fabric connects the routers input ports to its output ports .this switching fabric is completely contained within the router network
+inside of a network router.
+
+
+Output Ports :
+                          An output port stores packets received from the switching fabric and transmits these packets on the outgoing link by performing the necessary link-layer 
+ and physical-layer functions.  
+When a link is bidirectional (that is, carries traffic in both directions), an output port will typically be paired with the input port for that link on the same line card 
+ (a printed circuit board containing one or more input ports, which is connected to the switching fabric).
+
+
+
+Rotating Processor : The routing processor executes the routing protocols, maintains routing tables and attached link state information, and
+ computes for forwarding table for the router. It also performs the network management functions.
+
+ 
+
+Difficulties
+we have learnt about the UDP Socket Programming and how to implement it.
+but we couldnt implement transist time successfully.
